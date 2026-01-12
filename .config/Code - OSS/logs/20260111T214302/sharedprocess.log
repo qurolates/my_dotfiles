@@ -1,0 +1,8 @@
+2026-01-11 21:43:04.715 [info] ComputeTargetPlatform: linux-x64
+2026-01-11 21:43:06.718 [info] ComputeTargetPlatform: linux-x64
+2026-01-11 21:43:08.980 [info] Getting Manifest... vscode-icons-team.vscode-icons
+2026-01-11 21:43:09.554 [info] Installing extension: vscode-icons-team.vscode-icons {"productVersion":{"version":"1.100.3","date":"2025-07-19T16:51:29.935Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/nikhil/.vscode-oss/extensions/extensions.json","path":"/home/nikhil/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"}}
+2026-01-11 21:43:17.489 [info] Getting Manifest... vscode-icons-team.vscode-icons
+2026-01-11 21:43:17.674 [info] Extension is already requested to install vscode-icons-team.vscode-icons vscode-userdata:/home/nikhil/.vscode-oss/extensions/extensions.json
+2026-01-11 21:44:23.556 [info] Getting Manifest... vscode-icons-team.vscode-icons
+2026-01-11 21:44:23.619 [info] Extension is already requested to install vscode-icons-team.vscode-icons vscode-userdata:/home/nikhil/.vscode-oss/extensions/extensions.json

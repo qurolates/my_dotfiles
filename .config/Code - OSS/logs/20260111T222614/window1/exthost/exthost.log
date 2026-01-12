@@ -1,0 +1,6 @@
+2026-01-11 22:26:16.605 [info] Extension host with pid 1728 started
+2026-01-11 22:26:16.605 [info] Skipping acquiring lock for /home/nikhil/.config/Code - OSS/User/workspaceStorage/55ce50b10d2ea5dee5eb7391f67c034c.
+2026-01-11 22:26:16.863 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-01-11 22:26:16.930 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-01-11 22:26:17.163 [info] Extension host terminating: renderer closed the MessagePort
+2026-01-11 22:26:17.165 [info] Extension host with pid 1728 exiting with code 0

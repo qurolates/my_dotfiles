@@ -1,0 +1,14 @@
+2026-01-11 21:46:31.405 [info] ComputeTargetPlatform: linux-x64
+2026-01-11 21:46:33.541 [info] ComputeTargetPlatform: linux-x64
+2026-01-11 21:46:35.924 [info] Getting Manifest... vscode-icons-team.vscode-icons
+2026-01-11 21:46:36.159 [info] Installing extension: vscode-icons-team.vscode-icons {"productVersion":{"version":"1.100.3","date":"2025-07-19T16:51:29.935Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/nikhil/.vscode-oss/extensions/extensions.json","path":"/home/nikhil/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"}}
+2026-01-11 21:54:07.591 [warning] Error while deleting the file file:///home/nikhil/.config/Code%20-%20OSS/CachedExtensionVSIXs/.6248d4a5-95aa-44f1-a8aa-5233b40d117e Unable to delete nonexistent file '/home/nikhil/.config/Code - OSS/CachedExtensionVSIXs/.6248d4a5-95aa-44f1-a8aa-5233b40d117e'
+2026-01-11 21:54:07.591 [warning] Failed downloading vsix. Unable to write file '/home/nikhil/.config/Code - OSS/CachedExtensionVSIXs/.6248d4a5-95aa-44f1-a8aa-5233b40d117e' (Error: net::ERR_TIMED_OUT). Retry again... vscode-icons-team.vscode-icons
+2026-01-11 21:54:10.585 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code-oss/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2026-01-11 21:54:10.585 [info] Extension signature verification is not done: vscode-icons-team.vscode-icons
+2026-01-11 21:54:10.594 [error] Error while installing the extension vscode-icons-team.vscode-icons Signature verification was not executed. vscode-userdata:/home/nikhil/.vscode-oss/extensions/extensions.json
+2026-01-11 21:54:10.598 [error] [uncaught exception in sharedProcess]: Signature verification was not executed.: SignatureVerificationInternal: Signature verification was not executed.
+    at yh.xb (file:///usr/lib/code-oss/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:63971)
+    at async yh.wb (file:///usr/lib/code-oss/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:62886)
+2026-01-11 22:14:51.024 [info] Getting Manifest... vscode-icons-team.vscode-icons
+2026-01-11 22:14:51.660 [info] Installing extension: vscode-icons-team.vscode-icons {"productVersion":{"version":"1.100.3","date":"2025-07-19T16:51:29.935Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/nikhil/.vscode-oss/extensions/extensions.json","path":"/home/nikhil/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"}}

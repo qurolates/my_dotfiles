@@ -1,0 +1,10 @@
+2026-01-11 22:23:11.602 [info] ComputeTargetPlatform: linux-x64
+2026-01-11 22:23:13.457 [info] ComputeTargetPlatform: linux-x64
+2026-01-11 22:23:15.426 [info] Getting Manifest... vscode-icons-team.vscode-icons
+2026-01-11 22:23:15.709 [info] Installing extension: vscode-icons-team.vscode-icons {"productVersion":{"version":"1.100.3","date":"2025-07-19T16:51:29.935Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/nikhil/.vscode-oss/extensions/extensions.json","path":"/home/nikhil/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"}}
+2026-01-11 22:23:18.801 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code-oss/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2026-01-11 22:23:18.802 [info] Extension signature verification is not done: vscode-icons-team.vscode-icons
+2026-01-11 22:23:18.805 [error] Error while installing the extension vscode-icons-team.vscode-icons Signature verification was not executed. vscode-userdata:/home/nikhil/.vscode-oss/extensions/extensions.json
+2026-01-11 22:23:18.808 [error] [uncaught exception in sharedProcess]: Signature verification was not executed.: SignatureVerificationInternal: Signature verification was not executed.
+    at yh.xb (file:///usr/lib/code-oss/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:63971)
+    at async yh.wb (file:///usr/lib/code-oss/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:62886)

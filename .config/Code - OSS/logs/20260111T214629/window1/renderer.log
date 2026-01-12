@@ -1,0 +1,15 @@
+2026-01-11 21:46:31.173 [info] Started local extension host with pid 1662.
+2026-01-11 21:46:31.225 [info] ComputeTargetPlatform: linux-x64
+2026-01-11 21:46:34.271 [info] [perf] Render performance baseline is 27ms
+2026-01-11 21:46:34.896 [info] Auto updating outdated extensions. vscode-icons-team.vscode-icons
+2026-01-11 21:54:10.598 [error] Signature verification was not executed.: SignatureVerificationInternal: Signature verification was not executed.
+    at yh.xb (file:///usr/lib/code-oss/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:63971)
+    at async yh.wb (file:///usr/lib/code-oss/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:62886)
+2026-01-11 22:14:42.750 [info] Started local extension host with pid 4400.
+2026-01-11 22:14:42.769 [info] ComputeTargetPlatform: linux-x64
+2026-01-11 22:14:45.616 [info] [perf] Render performance baseline is 48ms
+2026-01-11 22:14:46.029 [info] Auto updating outdated extensions. vscode-icons-team.vscode-icons
+2026-01-11 22:14:47.155 [info] Started local extension host with pid 4448.
+2026-01-11 22:14:47.240 [info] ComputeTargetPlatform: linux-x64
+2026-01-11 22:14:49.910 [info] [perf] Render performance baseline is 44ms
+2026-01-11 22:14:50.019 [info] Auto updating outdated extensions. vscode-icons-team.vscode-icons

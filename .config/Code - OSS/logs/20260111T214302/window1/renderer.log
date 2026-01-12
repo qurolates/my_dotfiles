@@ -1,0 +1,10 @@
+2026-01-11 21:43:04.178 [info] Started local extension host with pid 16130.
+2026-01-11 21:43:04.292 [info] ComputeTargetPlatform: linux-x64
+2026-01-11 21:43:07.418 [info] [perf] Render performance baseline is 46ms
+2026-01-11 21:43:07.935 [info] Auto updating outdated extensions. vscode-icons-team.vscode-icons
+2026-01-11 21:43:10.585 [info] Started local extension host with pid 16233.
+2026-01-11 21:43:10.603 [info] ComputeTargetPlatform: linux-x64
+2026-01-11 21:43:13.812 [info] Started local extension host with pid 16275.
+2026-01-11 21:43:13.857 [info] ComputeTargetPlatform: linux-x64
+2026-01-11 21:43:16.475 [info] Auto updating outdated extensions. vscode-icons-team.vscode-icons
+2026-01-11 21:43:16.476 [info] [perf] Render performance baseline is 32ms

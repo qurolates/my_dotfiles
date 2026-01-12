@@ -1,0 +1,6 @@
+{
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.iconTheme": "vscode-icons",
+    "explorer.confirmDelete": false
+}

@@ -1,0 +1,67 @@
+# Шрифт JetBrains Mono Nerd (замена Mononoki)
+[font]
+normal.family = "JetBrainsMono Nerd Font"
+normal.style = "Regular"
+bold.family = "JetBrainsMono Nerd Font"
+bold.style = "Bold"
+italic.family = "JetBrainsMono Nerd Font"
+italic.style = "Italic"
+bold_italic.family = "JetBrainsMono Nerd Font"
+bold_italic.style = "Bold Italic"
+
+size = 14.0
+
+# Окно как в kitty.conf
+[window]
+opacity = 0.70  # background_opacity 0.7
+dynamic_padding = false
+padding.x = 4
+padding.y = 4
+decorations = "buttonless"
+startup_mode = "Windowed"
+option_as_alt = "Both"
+
+# Официальная тема Dracula
+[colors.primary]
+background = "#282a36"
+foreground = "#f8f8f2"
+dim_foreground = "#6272a4"
+
+[colors.cursor]
+text = "#f8f8f2"
+cursor = "#ff79c6"  
+
+[colors.normal]
+black   = "#21222c"
+red     = "#ff5555"
+green   = "#50fa7b"
+yellow  = "#f1fa8c"
+blue    = "#6272a4"
+magenta = "#ff79c6"
+cyan    = "#8be9fd"
+white   = "#f8f8f2"
+
+[colors.bright]
+black   = "#6272a4"
+red     = "#ff6e6e"
+green   = "#69ff94"
+yellow  = "#ffffa5"
+blue    = "#d6deff"
+magenta = "#ff92df"
+cyan    = "#a4f7ff"
+white   = "#ffffff"
+
+[colors.indexed_colors]
+16 = "#ffb86c"  # orange
+17 = "#ff79c6"  # pink
+
+# Настройки kitty.conf
+scrolling.history = 2000
+bell.audio = false
+
+[cursor]
+style.shape = "Beam"
+blinking = "On"
+
+[selection]
+save_to_clipboard = false

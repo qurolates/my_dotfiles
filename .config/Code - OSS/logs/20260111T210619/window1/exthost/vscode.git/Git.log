@@ -1,0 +1,90 @@
+2026-01-11 21:06:22.678 [info] [main] Log level: Info
+2026-01-11 21:06:22.678 [info] [main] Validating found git in: "git"
+2026-01-11 21:06:22.678 [info] [main] Using git "2.51.2" from "git"
+2026-01-11 21:06:22.678 [info] [Model][doInitialScan] Initial repository scan started
+2026-01-11 21:06:22.678 [info] > git rev-parse --show-toplevel [6ms]
+2026-01-11 21:06:22.678 [info] > git rev-parse --git-dir --git-common-dir [41ms]
+2026-01-11 21:06:22.678 [info] [Model][openRepository] Opened repository (path): /home/nikhil/git-clone/dwl
+2026-01-11 21:06:22.678 [info] [Model][openRepository] Opened repository (real path): /home/nikhil/git-clone/dwl
+2026-01-11 21:06:22.681 [info] > git rev-parse --show-toplevel [40ms]
+2026-01-11 21:06:22.681 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-11 21:06:22.682 [info] > git config --get commit.template [44ms]
+2026-01-11 21:06:22.696 [info] > git rev-parse --show-toplevel [7ms]
+2026-01-11 21:06:22.714 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2026-01-11 21:06:22.729 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/nikhil/git-clone/dwl/.git/refs/remotes/origin/main'
+2026-01-11 21:06:22.729 [info] > git rev-parse --show-toplevel [16ms]
+2026-01-11 21:06:22.736 [info] > git rev-parse refs/remotes/origin/main [7ms]
+2026-01-11 21:06:22.747 [info] > git status -z -uall [7ms]
+2026-01-11 21:06:22.748 [info] > git rev-parse --show-toplevel [13ms]
+2026-01-11 21:06:22.749 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-01-11 21:06:22.750 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2026-01-11 21:06:22.786 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2026-01-11 21:06:22.794 [info] > git config --get --local branch.main.vscode-merge-base [3ms]
+2026-01-11 21:06:22.800 [info] > git config --get commit.template [15ms]
+2026-01-11 21:06:22.802 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2026-01-11 21:06:22.815 [info] > git merge-base refs/heads/main refs/remotes/origin/main [7ms]
+2026-01-11 21:06:22.821 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2026-01-11 21:06:22.827 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/nikhil/git-clone/dwl/.git/refs/remotes/origin/main'
+2026-01-11 21:06:22.827 [info] > git diff --name-status -z --diff-filter=ADMR 9b11a49cb757b80f8589088b487b5f1e56643aa1...refs/remotes/origin/main [6ms]
+2026-01-11 21:06:22.828 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2026-01-11 21:06:22.840 [info] > git status -z -uall [6ms]
+2026-01-11 21:06:22.841 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-01-11 21:06:22.860 [info] > git show --textconv :config.def.h [5ms]
+2026-01-11 21:06:22.862 [info] > git ls-files --stage -- config.def.h [2ms]
+2026-01-11 21:06:22.872 [info] > git cat-file -s 8a6eda001fb810bff5f9fed72290fe9708baab27 [1ms]
+2026-01-11 21:06:23.002 [info] > git blame --root --incremental 9b11a49cb757b80f8589088b487b5f1e56643aa1 -- config.def.h [23ms]
+2026-01-11 21:06:23.174 [info] > git check-ignore -v -z --stdin [5ms]
+2026-01-11 21:10:15.687 [info] > git config --get commit.template [2ms]
+2026-01-11 21:10:15.694 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2026-01-11 21:10:15.700 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/nikhil/git-clone/dwl/.git/refs/remotes/origin/main'
+2026-01-11 21:10:15.701 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2026-01-11 21:10:15.713 [info] > git status -z -uall [7ms]
+2026-01-11 21:10:15.714 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-01-11 21:10:20.756 [info] > git config --get commit.template [6ms]
+2026-01-11 21:10:20.772 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2026-01-11 21:10:20.780 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/nikhil/git-clone/dwl/.git/refs/remotes/origin/main'
+2026-01-11 21:10:20.782 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-01-11 21:10:20.798 [info] > git status -z -uall [8ms]
+2026-01-11 21:10:20.800 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-01-11 21:10:25.821 [info] > git config --get commit.template [6ms]
+2026-01-11 21:10:25.822 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-01-11 21:10:25.827 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/nikhil/git-clone/dwl/.git/refs/remotes/origin/main'
+2026-01-11 21:10:25.829 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2026-01-11 21:10:25.841 [info] > git status -z -uall [7ms]
+2026-01-11 21:10:25.842 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-01-11 21:10:30.861 [info] > git config --get commit.template [6ms]
+2026-01-11 21:10:30.862 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-01-11 21:10:30.867 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/nikhil/git-clone/dwl/.git/refs/remotes/origin/main'
+2026-01-11 21:10:30.869 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2026-01-11 21:10:30.882 [info] > git status -z -uall [8ms]
+2026-01-11 21:10:30.885 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-01-11 21:10:52.077 [info] > git config --get commit.template [7ms]
+2026-01-11 21:10:52.077 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2026-01-11 21:10:52.082 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/nikhil/git-clone/dwl/.git/refs/remotes/origin/main'
+2026-01-11 21:10:52.083 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2026-01-11 21:10:52.094 [info] > git status -z -uall [5ms]
+2026-01-11 21:10:52.096 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-01-11 21:10:57.111 [info] > git config --get commit.template [5ms]
+2026-01-11 21:10:57.111 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2026-01-11 21:10:57.117 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/nikhil/git-clone/dwl/.git/refs/remotes/origin/main'
+2026-01-11 21:10:57.119 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-01-11 21:10:57.128 [info] > git status -z -uall [4ms]
+2026-01-11 21:10:57.130 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-01-11 21:13:32.242 [info] > git config --get commit.template [8ms]
+2026-01-11 21:13:32.243 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-01-11 21:13:32.249 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/nikhil/git-clone/dwl/.git/refs/remotes/origin/main'
+2026-01-11 21:13:32.250 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2026-01-11 21:13:32.262 [info] > git status -z -uall [7ms]
+2026-01-11 21:13:32.264 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-01-11 21:13:37.294 [info] > git config --get commit.template [9ms]
+2026-01-11 21:13:37.295 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-01-11 21:13:37.300 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/nikhil/git-clone/dwl/.git/refs/remotes/origin/main'
+2026-01-11 21:13:37.301 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2026-01-11 21:13:37.312 [info] > git status -z -uall [6ms]
+2026-01-11 21:13:37.313 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-01-11 21:21:10.244 [info] > git config --get commit.template [7ms]
+2026-01-11 21:21:10.245 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-01-11 21:21:10.252 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/nikhil/git-clone/dwl/.git/refs/remotes/origin/main'
+2026-01-11 21:21:10.253 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2026-01-11 21:21:10.264 [info] > git status -z -uall [6ms]
+2026-01-11 21:21:10.265 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]

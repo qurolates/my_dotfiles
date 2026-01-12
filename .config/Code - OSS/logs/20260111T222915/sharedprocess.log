@@ -1,0 +1,12 @@
+2026-01-11 22:29:17.476 [info] ComputeTargetPlatform: linux-x64
+2026-01-11 22:29:19.443 [info] ComputeTargetPlatform: linux-x64
+2026-01-11 22:29:26.867 [info] Getting Manifest... vscode-icons-team.vscode-icons
+2026-01-11 22:29:27.072 [info] Installing extension: vscode-icons-team.vscode-icons {"productVersion":{"version":"1.100.3","date":"2025-07-19T16:51:29.935Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/nikhil/.vscode-oss/extensions/extensions.json","path":"/home/nikhil/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"}}
+2026-01-11 22:36:58.546 [warning] Error while deleting the file file:///home/nikhil/.config/Code%20-%20OSS/CachedExtensionVSIXs/.a48a529f-1c43-4442-b28d-2eedcb9aef43 Unable to delete nonexistent file '/home/nikhil/.config/Code - OSS/CachedExtensionVSIXs/.a48a529f-1c43-4442-b28d-2eedcb9aef43'
+2026-01-11 22:36:58.549 [warning] Failed downloading vsix. Unable to write file '/home/nikhil/.config/Code - OSS/CachedExtensionVSIXs/.a48a529f-1c43-4442-b28d-2eedcb9aef43' (Error: net::ERR_TIMED_OUT). Retry again... vscode-icons-team.vscode-icons
+2026-01-11 22:37:00.336 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code-oss/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2026-01-11 22:37:00.336 [info] Extension signature verification is not done: vscode-icons-team.vscode-icons
+2026-01-11 22:37:00.340 [error] Error while installing the extension vscode-icons-team.vscode-icons Signature verification was not executed. vscode-userdata:/home/nikhil/.vscode-oss/extensions/extensions.json
+2026-01-11 22:37:00.343 [error] [uncaught exception in sharedProcess]: Signature verification was not executed.: SignatureVerificationInternal: Signature verification was not executed.
+    at yh.xb (file:///usr/lib/code-oss/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:63971)
+    at async yh.wb (file:///usr/lib/code-oss/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:62886)

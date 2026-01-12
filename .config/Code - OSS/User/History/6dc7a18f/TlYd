@@ -1,0 +1,32 @@
+#! /bin/sh
+
+setxkbmap -layout 'us,ru' -option 'grp:win_space_toggle' &
+pgrep -x sxhkd >/dev/null || sxhkd &
+xsetroot -cursor_name left_ptr
+
+pipewire &
+wireplumber &
+polybar &
+mako &
+feh --bg-scale /home/nikhil/Pictures/Wallpapers/Tree.png &
+nm-applet &
+flameshot &
+
+bspc monitor -d 1 2 3 4 5
+
+bspc config border_width 3
+bspc config window_gap 10
+bspc config normal_border_color "#6272a4"
+bspc config active_border_color "#bd93f9"
+bspc config focused_border_color "#bd93f9"
+
+bspc config split_ratio 0.52
+bspc config borderless_monocle true
+bspc config gapless_monocle true
+
+bspc rule -a pavucontrol state=floating
+bspc rule -a nwg-look state=floating
+bspc rule -a nm-applet state=floating
+bspc rule -a blueman-manager state=floating
+bspc rule -a org.kde.ark state=floating
+

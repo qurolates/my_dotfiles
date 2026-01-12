@@ -1,0 +1,83 @@
+2026-01-11 22:23:13.009 [info] [main] Log level: Info
+2026-01-11 22:23:13.009 [info] [main] Validating found git in: "git"
+2026-01-11 22:23:13.009 [info] [main] Using git "2.51.2" from "git"
+2026-01-11 22:23:13.009 [info] [Model][doInitialScan] Initial repository scan started
+2026-01-11 22:23:13.009 [info] > git rev-parse --show-toplevel [258ms]
+2026-01-11 22:23:13.009 [info] > git rev-parse --git-dir --git-common-dir [13ms]
+2026-01-11 22:23:13.009 [info] [Model][openRepository] Opened repository (path): /home/nikhil/dwl
+2026-01-11 22:23:13.009 [info] [Model][openRepository] Opened repository (real path): /home/nikhil/dwl
+2026-01-11 22:23:13.011 [info] > git rev-parse --show-toplevel [5ms]
+2026-01-11 22:23:13.012 [info] > git config --get commit.template [10ms]
+2026-01-11 22:23:13.027 [info] > git rev-parse --show-toplevel [8ms]
+2026-01-11 22:23:13.032 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dwl-dev refs/remotes/dwl-dev [7ms]
+2026-01-11 22:23:13.037 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/nikhil/dwl/.git/refs/remotes/origin/dwl-dev'
+2026-01-11 22:23:13.038 [info] > git rev-parse --show-toplevel [7ms]
+2026-01-11 22:23:13.039 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-01-11 22:23:13.039 [info] > git rev-parse refs/remotes/origin/dwl-dev [2ms]
+2026-01-11 22:23:13.052 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-01-11 22:23:13.055 [info] > git status -z -uall [11ms]
+2026-01-11 22:23:13.087 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dwl-dev refs/remotes/dwl-dev [11ms]
+2026-01-11 22:23:13.094 [info] > git config --get --local branch.dwl-dev.vscode-merge-base [3ms]
+2026-01-11 22:23:13.099 [info] > git config --get commit.template [13ms]
+2026-01-11 22:23:13.129 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/dwl-dev refs/remotes/origin/dwl-dev [30ms]
+2026-01-11 22:23:13.137 [info] > git merge-base refs/heads/dwl-dev refs/remotes/origin/dwl-dev [3ms]
+2026-01-11 22:23:13.144 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dwl-dev refs/remotes/dwl-dev [15ms]
+2026-01-11 22:23:13.149 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/nikhil/dwl/.git/refs/remotes/origin/dwl-dev'
+2026-01-11 22:23:13.150 [info] > git diff --name-status -z --diff-filter=ADMR 0557d464ca1586cc071655dc9c50dfac90b52bf6...refs/remotes/origin/dwl-dev [7ms]
+2026-01-11 22:23:13.152 [info] > git rev-parse refs/remotes/origin/dwl-dev [3ms]
+2026-01-11 22:23:13.162 [info] > git status -z -uall [6ms]
+2026-01-11 22:23:13.163 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-01-11 22:23:13.511 [info] > git show --textconv :config.h [6ms]
+2026-01-11 22:23:13.513 [info] > git ls-files --stage -- config.h [2ms]
+2026-01-11 22:23:13.523 [info] > git check-ignore -v -z --stdin [2ms]
+2026-01-11 22:23:13.523 [info] > git cat-file -s e7892f95578c06bc967c56e44378fc3e7fb04d52 [6ms]
+2026-01-11 22:23:13.581 [info] > git blame --root --incremental 0557d464ca1586cc071655dc9c50dfac90b52bf6 -- config.h [4ms]
+2026-01-11 22:23:14.294 [info] > git show --textconv :config.def.h [6ms]
+2026-01-11 22:23:14.295 [info] > git ls-files --stage -- config.def.h [2ms]
+2026-01-11 22:23:14.300 [info] > git cat-file -s d55d13dc4d9456ff828b4fa64a303df14545b61c [1ms]
+2026-01-11 22:23:26.971 [info] > git show --textconv :config.h [7ms]
+2026-01-11 22:23:26.972 [info] > git ls-files --stage -- config.h [2ms]
+2026-01-11 22:23:26.978 [info] > git cat-file -s e7892f95578c06bc967c56e44378fc3e7fb04d52 [2ms]
+2026-01-11 22:23:31.870 [info] > git config --get commit.template [8ms]
+2026-01-11 22:23:31.871 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dwl-dev refs/remotes/dwl-dev [2ms]
+2026-01-11 22:23:31.877 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/nikhil/dwl/.git/refs/remotes/origin/dwl-dev'
+2026-01-11 22:23:31.879 [info] > git rev-parse refs/remotes/origin/dwl-dev [2ms]
+2026-01-11 22:23:31.889 [info] > git status -z -uall [5ms]
+2026-01-11 22:23:31.890 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-01-11 22:23:45.521 [info] > git config --get commit.template [6ms]
+2026-01-11 22:23:45.522 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dwl-dev refs/remotes/dwl-dev [1ms]
+2026-01-11 22:23:45.526 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/nikhil/dwl/.git/refs/remotes/origin/dwl-dev'
+2026-01-11 22:23:45.527 [info] > git rev-parse refs/remotes/origin/dwl-dev [1ms]
+2026-01-11 22:23:45.537 [info] > git status -z -uall [5ms]
+2026-01-11 22:23:45.537 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-01-11 22:23:50.598 [info] > git config --get commit.template [28ms]
+2026-01-11 22:23:50.602 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dwl-dev refs/remotes/dwl-dev [7ms]
+2026-01-11 22:23:50.620 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/nikhil/dwl/.git/refs/remotes/origin/dwl-dev'
+2026-01-11 22:23:50.623 [info] > git rev-parse refs/remotes/origin/dwl-dev [3ms]
+2026-01-11 22:23:50.642 [info] > git status -z -uall [9ms]
+2026-01-11 22:23:50.644 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-01-11 22:24:14.314 [info] > git config --get commit.template [7ms]
+2026-01-11 22:24:14.315 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dwl-dev refs/remotes/dwl-dev [2ms]
+2026-01-11 22:24:14.320 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/nikhil/dwl/.git/refs/remotes/origin/dwl-dev'
+2026-01-11 22:24:14.321 [info] > git rev-parse refs/remotes/origin/dwl-dev [1ms]
+2026-01-11 22:24:14.334 [info] > git status -z -uall [6ms]
+2026-01-11 22:24:14.335 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-01-11 22:24:19.373 [info] > git config --get commit.template [11ms]
+2026-01-11 22:24:19.374 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dwl-dev refs/remotes/dwl-dev [2ms]
+2026-01-11 22:24:19.381 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/nikhil/dwl/.git/refs/remotes/origin/dwl-dev'
+2026-01-11 22:24:19.383 [info] > git rev-parse refs/remotes/origin/dwl-dev [2ms]
+2026-01-11 22:24:19.395 [info] > git status -z -uall [7ms]
+2026-01-11 22:24:19.397 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-01-11 22:24:25.687 [info] > git config --get commit.template [7ms]
+2026-01-11 22:24:25.689 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dwl-dev refs/remotes/dwl-dev [2ms]
+2026-01-11 22:24:25.695 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/nikhil/dwl/.git/refs/remotes/origin/dwl-dev'
+2026-01-11 22:24:25.696 [info] > git rev-parse refs/remotes/origin/dwl-dev [1ms]
+2026-01-11 22:24:25.709 [info] > git status -z -uall [6ms]
+2026-01-11 22:24:25.710 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-01-11 22:24:30.729 [info] > git config --get commit.template [5ms]
+2026-01-11 22:24:30.730 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dwl-dev refs/remotes/dwl-dev [1ms]
+2026-01-11 22:24:30.735 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/nikhil/dwl/.git/refs/remotes/origin/dwl-dev'
+2026-01-11 22:24:30.736 [info] > git rev-parse refs/remotes/origin/dwl-dev [1ms]
+2026-01-11 22:24:30.749 [info] > git status -z -uall [7ms]
+2026-01-11 22:24:30.750 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-01-11 22:24:40.843 [info] > git check-ignore -v -z --stdin [2ms]

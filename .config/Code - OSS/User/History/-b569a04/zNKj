@@ -1,0 +1,21 @@
+anchor=top-right
+default-timeout=5000
+
+icons=1
+icon-path=/usr/share/icons/Paper-Mono-Dark/
+icon-location=right
+
+# Format
+
+margin=20,20
+padding=20,10
+border-size=4
+border-radius=2
+
+background-color=#26233a
+text-color=#e0def4
+border-color= #cba6f7
+progress-color=over #6C7086
+
+[urgency=high]
+border-color=#eb6f92

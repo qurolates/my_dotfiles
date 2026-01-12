@@ -1,0 +1,143 @@
+2026-01-11 21:43:06.178 [info] [main] Log level: Info
+2026-01-11 21:43:06.178 [info] [main] Validating found git in: "git"
+2026-01-11 21:43:06.178 [info] [main] Using git "2.51.2" from "git"
+2026-01-11 21:43:06.178 [info] [Model][doInitialScan] Initial repository scan started
+2026-01-11 21:43:06.178 [info] > git rev-parse --show-toplevel [8ms]
+2026-01-11 21:43:06.178 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2026-01-11 21:43:06.178 [info] [Model][openRepository] Opened repository (path): /home/nikhil/dwl
+2026-01-11 21:43:06.178 [info] [Model][openRepository] Opened repository (real path): /home/nikhil/dwl
+2026-01-11 21:43:06.182 [info] > git rev-parse --show-toplevel [232ms]
+2026-01-11 21:43:06.183 [info] > git config --get commit.template [237ms]
+2026-01-11 21:43:06.405 [info] > git rev-parse --show-toplevel [28ms]
+2026-01-11 21:43:06.405 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dwl-dev refs/remotes/dwl-dev [32ms]
+2026-01-11 21:43:06.416 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/nikhil/dwl/.git/refs/remotes/origin/dwl-dev'
+2026-01-11 21:43:06.421 [info] > git rev-parse refs/remotes/origin/dwl-dev [5ms]
+2026-01-11 21:43:06.433 [info] > git rev-parse --show-toplevel [22ms]
+2026-01-11 21:43:06.450 [info] > git status -z -uall [22ms]
+2026-01-11 21:43:06.450 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [18ms]
+2026-01-11 21:43:06.501 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dwl-dev refs/remotes/dwl-dev [27ms]
+2026-01-11 21:43:06.507 [info] > git rev-parse --show-toplevel [59ms]
+2026-01-11 21:43:06.508 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (1), unsafe repositories (0)
+2026-01-11 21:43:06.523 [info] > git show --textconv :config.h [10ms]
+2026-01-11 21:43:06.523 [info] > git ls-files --stage -- config.h [4ms]
+2026-01-11 21:43:06.528 [info] > git config --get --local branch.dwl-dev.vscode-merge-base [21ms]
+2026-01-11 21:43:06.534 [info] > git config --get commit.template [33ms]
+2026-01-11 21:43:06.536 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/dwl-dev refs/remotes/origin/dwl-dev [3ms]
+2026-01-11 21:43:06.542 [info] > git cat-file -s e7892f95578c06bc967c56e44378fc3e7fb04d52 [15ms]
+2026-01-11 21:43:06.549 [info] > git merge-base refs/heads/dwl-dev refs/remotes/origin/dwl-dev [7ms]
+2026-01-11 21:43:06.562 [info] > git diff --name-status -z --diff-filter=ADMR 0557d464ca1586cc071655dc9c50dfac90b52bf6...refs/remotes/origin/dwl-dev [6ms]
+2026-01-11 21:43:06.563 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dwl-dev refs/remotes/dwl-dev [15ms]
+2026-01-11 21:43:06.596 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/nikhil/dwl/.git/refs/remotes/origin/dwl-dev'
+2026-01-11 21:43:06.602 [info] > git rev-parse refs/remotes/origin/dwl-dev [6ms]
+2026-01-11 21:43:06.617 [info] > git status -z -uall [6ms]
+2026-01-11 21:43:06.622 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2026-01-11 21:43:06.650 [info] > git blame --root --incremental 0557d464ca1586cc071655dc9c50dfac90b52bf6 -- config.h [5ms]
+2026-01-11 21:43:06.696 [info] > git check-ignore -v -z --stdin [1ms]
+2026-01-11 21:43:11.872 [info] [main] Log level: Info
+2026-01-11 21:43:11.872 [info] [main] Validating found git in: "git"
+2026-01-11 21:43:11.872 [info] [main] Using git "2.51.2" from "git"
+2026-01-11 21:43:11.872 [info] [Model][doInitialScan] Initial repository scan started
+2026-01-11 21:43:11.872 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-01-11 21:43:15.188 [info] [main] Log level: Info
+2026-01-11 21:43:15.188 [info] [main] Validating found git in: "git"
+2026-01-11 21:43:15.188 [info] [main] Using git "2.51.2" from "git"
+2026-01-11 21:43:15.188 [info] [Model][doInitialScan] Initial repository scan started
+2026-01-11 21:43:15.188 [info] > git rev-parse --show-toplevel [2ms]
+2026-01-11 21:43:15.188 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-11 21:43:15.189 [info] > git rev-parse --show-toplevel [227ms]
+2026-01-11 21:43:15.189 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-11 21:43:15.215 [info] > git rev-parse --show-toplevel [7ms]
+2026-01-11 21:43:15.215 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-11 21:43:15.259 [info] > git rev-parse --show-toplevel [1ms]
+2026-01-11 21:43:15.259 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-11 21:43:15.265 [info] > git rev-parse --show-toplevel [2ms]
+2026-01-11 21:43:15.265 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-11 21:43:15.271 [info] > git rev-parse --show-toplevel [1ms]
+2026-01-11 21:43:15.271 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-11 21:43:15.277 [info] > git rev-parse --show-toplevel [1ms]
+2026-01-11 21:43:15.277 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-11 21:43:15.284 [info] > git rev-parse --show-toplevel [1ms]
+2026-01-11 21:43:15.284 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-11 21:43:15.290 [info] > git rev-parse --show-toplevel [0ms]
+2026-01-11 21:43:15.291 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-11 21:43:15.298 [info] > git rev-parse --show-toplevel [3ms]
+2026-01-11 21:43:15.298 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-11 21:43:15.305 [info] > git rev-parse --show-toplevel [1ms]
+2026-01-11 21:43:15.305 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-11 21:43:15.310 [info] > git rev-parse --show-toplevel [1ms]
+2026-01-11 21:43:15.310 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-11 21:43:15.317 [info] > git rev-parse --show-toplevel [1ms]
+2026-01-11 21:43:15.317 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-11 21:43:15.322 [info] > git rev-parse --show-toplevel [1ms]
+2026-01-11 21:43:15.322 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-11 21:43:15.327 [info] > git rev-parse --show-toplevel [1ms]
+2026-01-11 21:43:15.327 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-11 21:43:15.334 [info] > git rev-parse --show-toplevel [1ms]
+2026-01-11 21:43:15.334 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-11 21:43:15.340 [info] > git rev-parse --show-toplevel [1ms]
+2026-01-11 21:43:15.340 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-11 21:43:15.345 [info] > git rev-parse --show-toplevel [1ms]
+2026-01-11 21:43:15.345 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-11 21:43:15.351 [info] > git rev-parse --show-toplevel [1ms]
+2026-01-11 21:43:15.352 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-11 21:43:15.357 [info] > git rev-parse --show-toplevel [1ms]
+2026-01-11 21:43:15.357 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-11 21:43:15.365 [info] > git rev-parse --show-toplevel [2ms]
+2026-01-11 21:43:15.372 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2026-01-11 21:43:15.387 [info] [Model][openRepository] Opened repository (path): /home/nikhil/.config/nvim
+2026-01-11 21:43:15.387 [info] [Model][openRepository] Opened repository (real path): /home/nikhil/.config/nvim
+2026-01-11 21:43:15.402 [info] > git rev-parse --show-toplevel [3ms]
+2026-01-11 21:43:15.402 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-11 21:43:15.402 [info] > git config --get commit.template [8ms]
+2026-01-11 21:43:15.414 [info] > git rev-parse --show-toplevel [7ms]
+2026-01-11 21:43:15.414 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-11 21:43:15.422 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2026-01-11 21:43:15.427 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/nikhil/.config/nvim/.git/refs/remotes/origin/main'
+2026-01-11 21:43:15.427 [info] > git rev-parse --show-toplevel [6ms]
+2026-01-11 21:43:15.427 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-11 21:43:15.433 [info] > git rev-parse refs/remotes/origin/main [7ms]
+2026-01-11 21:43:15.445 [info] > git status -z -uall [6ms]
+2026-01-11 21:43:15.446 [info] > git rev-parse --show-toplevel [13ms]
+2026-01-11 21:43:15.446 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-11 21:43:15.452 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2026-01-11 21:43:15.496 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [21ms]
+2026-01-11 21:43:15.503 [info] > git rev-parse --show-toplevel [51ms]
+2026-01-11 21:43:15.503 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-11 21:43:15.521 [info] > git config --get --local branch.main.vscode-merge-base [19ms]
+2026-01-11 21:43:15.526 [info] > git config --get commit.template [41ms]
+2026-01-11 21:43:15.527 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2026-01-11 21:43:15.534 [info] > git rev-parse --show-toplevel [15ms]
+2026-01-11 21:43:15.534 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-11 21:43:15.572 [info] > git merge-base refs/heads/main refs/remotes/origin/main [39ms]
+2026-01-11 21:43:15.580 [info] > git diff --name-status -z --diff-filter=ADMR e3572e1f5e1c297212c3deeb17b7863139ce663e...refs/remotes/origin/main [4ms]
+2026-01-11 21:43:15.581 [info] > git rev-parse --show-toplevel [13ms]
+2026-01-11 21:43:15.581 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-11 21:43:15.581 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2026-01-11 21:43:15.592 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/nikhil/.config/nvim/.git/refs/remotes/origin/main'
+2026-01-11 21:43:15.593 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2026-01-11 21:43:15.603 [info] > git rev-parse --show-toplevel [16ms]
+2026-01-11 21:43:15.603 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-11 21:43:15.608 [info] > git status -z -uall [10ms]
+2026-01-11 21:43:15.609 [info] > git rev-parse --show-toplevel [2ms]
+2026-01-11 21:43:15.609 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-11 21:43:15.609 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2026-01-11 21:43:15.621 [info] > git rev-parse --show-toplevel [1ms]
+2026-01-11 21:43:15.621 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-11 21:43:15.626 [info] > git rev-parse --show-toplevel [0ms]
+2026-01-11 21:43:15.626 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-11 21:43:15.633 [info] > git rev-parse --show-toplevel [2ms]
+2026-01-11 21:43:15.633 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-11 21:43:15.639 [info] > git rev-parse --show-toplevel [1ms]
+2026-01-11 21:43:15.639 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-11 21:43:15.644 [info] > git rev-parse --show-toplevel [1ms]
+2026-01-11 21:43:15.644 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-11 21:43:15.650 [info] > git rev-parse --show-toplevel [1ms]
+2026-01-11 21:43:15.650 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-11 21:43:15.655 [info] > git rev-parse --show-toplevel [1ms]
+2026-01-11 21:43:15.655 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-11 21:43:15.656 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-01-11 21:43:15.937 [info] > git check-ignore -v -z --stdin [5ms]
+2026-01-11 21:43:16.333 [info] > git rev-parse --show-toplevel [2ms]
+2026-01-11 21:43:16.333 [info] fatal: not a git repository (or any of the parent directories): .git
+2026-01-11 21:43:29.215 [info] > git rev-parse --show-toplevel [1ms]
+2026-01-11 21:43:29.215 [info] fatal: not a git repository (or any of the parent directories): .git
